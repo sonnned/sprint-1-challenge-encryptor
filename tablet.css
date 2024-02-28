@@ -1,0 +1,205 @@
+.encriptador-tablet {
+  background-color: #f3f5fc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.encriptador-tablet .div {
+  background-color: var(--light-bluelight-blue-100);
+  width: 768px;
+  height: 1174px;
+  position: relative;
+}
+
+.encriptador-tablet .group {
+  position: absolute;
+  width: 31px;
+  height: 51px;
+  top: 73px;
+  left: 40px;
+}
+
+.encriptador-tablet .overlap-group {
+  position: relative;
+  height: 51px;
+}
+
+.encriptador-tablet .rectangle {
+  position: absolute;
+  width: 31px;
+  height: 48px;
+  top: 3px;
+  left: 0;
+  background-color: #e9ecf8;
+}
+
+.encriptador-tablet .vector {
+  position: absolute;
+  width: 31px;
+  height: 46px;
+  top: 0;
+  left: 0;
+}
+
+.encriptador-tablet .text-wrapper {
+  position: absolute;
+  width: 688px;
+  top: 239px;
+  left: 40px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-bluedark-blue-300);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.encriptador-tablet .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  top: 836px;
+  position: absolute;
+  left: 40px;
+}
+
+.encriptador-tablet .bi-exclamation {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.encriptador-tablet .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-400);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.encriptador-tablet .frame-2 {
+  display: flex;
+  width: 688px;
+  align-items: flex-start;
+  gap: 24px;
+  top: 870px;
+  position: absolute;
+  left: 40px;
+}
+
+.encriptador-tablet .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--dark-bluedark-blue-300);
+  border-radius: 24px;
+}
+
+.encriptador-tablet .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  flex: 1;
+}
+
+.encriptador-tablet .button-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 24px;
+  flex-grow: 1;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: var(--dark-bluedark-blue-300);
+  position: relative;
+  flex: 1;
+}
+
+.encriptador-tablet .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-bluedark-blue-300);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  flex: 1;
+}
+
+.encriptador-tablet .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 688px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  top: 1001px;
+  background-color: var(--white);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+  position: absolute;
+  left: 40px;
+}
+
+.encriptador-tablet .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.encriptador-tablet .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-500);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.encriptador-tablet .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-400);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
